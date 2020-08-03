@@ -1969,7 +1969,7 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 
-				ul.contact li:hover a.fa-dribbble {
+				ul.contact li:hover a.fa-github { /*f09b*/
 					background-color: #C4376B;
 				}
 
@@ -1977,11 +1977,11 @@ input, select, textarea {
 					background-color: #006599;
 				}
 
-				ul.contact li:hover a.fa-instagram {
+				ul.contact li:hover a.fa-kaggle { /*f5fa*/
 					background-color: #2E5E86;
 				}
 
-				ul.contact li:hover a.fa-google-plus {
+				ul.contact li:hover a.fa-medium {/*f23a*/
 					background-color: #DA2713;
 				}
 
@@ -2304,11 +2304,11 @@ input, select, textarea {
 
 	#header {
 		text-align: center;
-		font-size: 2em;
+		font-size: 2.5em;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 2em 0;
+		padding: 0.5em 0;
 		background: #fff;
 		margin: 0 auto;
 	}
@@ -2324,7 +2324,7 @@ input, select, textarea {
 				background: #fff;
 				position: relative;
 				display: inline-block;
-				padding: 0 1.5em 0 1.5em;
+				padding: 0 1.5em -0 1.5em;
 				top: -0.65em;
 			}
 
@@ -2478,24 +2478,24 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("../../images/Office.jpg"), url("../../images/Office.jpg"), url("../../images/Office.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
 		z-index: 1;
-		padding: 11em 0;
+		padding: 6em 0;
 	}
 
 		#banner .content {
 			position: relative;
 			background-color: rgba(21, 28, 23, 0.85);
-			background-image: url("images/overlay.png"), url("images/highlight.png");
+			/*background-image: url("../../images/Office.jpg"), url("../../images/Office.jpg");*/
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
 			background-repeat: repeat, no-repeat;
 			text-align: center;
 			margin: 0;
-			padding: 4em 0 3.5em 0;
+			padding: 1em 0 3em 0;
 		}
 
 			#banner .content h2 {
