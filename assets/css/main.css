@@ -2449,7 +2449,8 @@ input, select, textarea {
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	/*max-width: 850px*/
+	width: 50%;
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
