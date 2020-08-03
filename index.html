@@ -6,20 +6,21 @@
 -->
 <html>
 	<head>
-		<title>TXT by HTML5 UP</title>
+		<title>Portfolio by David C</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/Dicon.png" type="image/png">
 	</head>
-	<body class="homepage is-preload">
+	<body class="homepage is-preload" onload="typeWriter()">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header">
 					<div class="logo container">
 						<div>
-							<h1><a href="index.html" id="logo">TXT</a></h1>
-							<p>A responsive site template by HTML5 UP</p>
+							<h1><a href="index.html" id="logo">Hi! </a></h1>
+							<p id="typeeffect"></p>
 						</div>
 					</div>
 				</header>
@@ -28,8 +29,9 @@
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
 						<li>
-							<a href="#">Dropdown</a>
+							<a href="#">Projects</a>
 							<ul>
 								<li><a href="#">Lorem ipsum dolor</a></li>
 								<li><a href="#">Magna phasellus</a></li>
@@ -45,18 +47,21 @@
 								<li><a href="#">Veroeros feugiat</a></li>
 							</ul>
 						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="certificates.html">Certificates</a></li>
+						<li><a href="https://www.linkedin.com/in/davidcanozafra/" target="_blank">LinkedIn</a></li>
+						<li><a href="https://github.com/davidcano221" target="_blank">GitHub</a></li>
+						<li><a href="https://www.kaggle.com/davidcanozafra" target="_blank">Kaggle</a></li>
+						<li><a href="https://medium.com/@david.cano221" target="_blank">Blog</a></li>
 					</ul>
 				</nav>
 
 			<!-- Banner -->
+				
 				<section id="banner">
 					<div class="content">
-						<h2>Welcome to TXT by HTML5 UP</h2>
-						<p>A free responsive site template built on HTML5, CSS3, and some other stuff</p>
-						<a href="#main" class="button scrolly">Alright let's go</a>
+						<h2>My portfolio</h2>
+						<p>David Cano</p>
+						<a href="#main" class="button scrolly">Let's start</a>
 					</div>
 				</section>
 
@@ -308,6 +313,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+					var i = 0;
+					var txt = 'Welcome to my portfolio';
+					var speed = 75;
+
+					function typeWriter() {
+					  if (i < txt.length) {
+						document.getElementById("typeeffect").innerHTML += txt.charAt(i);
+						i++;
+						setTimeout(typeWriter, speed);
+					  }
+					}
+					</script>
+			
 
 	</body>
 </html>
