@@ -3004,6 +3004,28 @@ input, select, textarea {
 		.sidebar h2.major span {
 			padding-left: 0;
 		}
+		
+/* Main2 */
+
+	#main2 {
+		background: #d5dfd8;/*#f2f5f3;*/
+		/*border-top: solid 5px #b1ddab;*/
+		/*border-bottom: solid 5px #c1cac5;*/
+		border-top-width: 35px;
+		border-bottom-width: 10px;
+		padding: 6em 0 6em 0;
+	}
+
+/* Sidebar + Content */
+
+	.sidebar h2.major {
+		text-align: left;
+		margin: 0 0 1.5em 0;
+	}
+
+		.sidebar h2.major span {
+			padding-left: 0;
+		}
 
 /* Footer */
 
@@ -3144,6 +3166,12 @@ input, select, textarea {
 				border-top-width: 20px;
 				border-bottom-width: 10px;
 			}
+			
+		/* Main2 */
+
+			#main2 {
+				border-top-width: 20px;
+				border-bottom-width: 10px;
 
 		/* Footer */
 
@@ -3200,6 +3228,12 @@ input, select, textarea {
 		/* Main */
 
 			#main {
+				border-top-width: 0;
+			}
+
+		/* Main2 */
+
+			#main2 {
 				border-top-width: 0;
 			}
 
@@ -3305,7 +3339,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: a1cd9b;
 					}
 
 			#navPanel {
@@ -3554,6 +3588,12 @@ input, select, textarea {
 		/* Main */
 
 			#main {
+				padding: 3em 0;
+			}
+			
+		/* Main2 */
+
+			#main2 {
 				padding: 3em 0;
 			}
 
