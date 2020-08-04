@@ -2343,10 +2343,10 @@ input, select, textarea {
  */
 .skill-bars {
 	list-style: none;
-	margin: 6rem 0 3rem;
+	margin: 6rem 0 0rem;
 }
 .skill-bars li {
-	height: .6rem;
+	height: 0.6rem;
 	background: #a1a1a1;
 	width: 100%;
 	margin-bottom: 6rem;
@@ -2422,8 +2422,9 @@ input, select, textarea {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 4rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -2435,11 +2436,15 @@ input, select, textarea {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 10rem;
+	width: 10rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	margin: .0rem 0 0 0;
 	float: left;
+}
+.intro-info h3 {
+	text-align: left;
+	padding-left: 13rem;
 }
 .intro-info .lead {
 	text-align: left;
@@ -2449,8 +2454,7 @@ input, select, textarea {
 .about-content {
 	position: relative;
 	text-align: left;
-	/*max-width: 850px*/
-	width: 50%;
+	max-width: 850px
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
