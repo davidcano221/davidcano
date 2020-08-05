@@ -2424,8 +2424,9 @@ input, select, textarea {
 	background: #FFFFFF;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	padding-left: 6rem;
+	padding-left: 3rem;
 }
+
 #about .section-intro {
 	margin-bottom: 3rem;
 }
@@ -2436,11 +2437,12 @@ input, select, textarea {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 10rem;
-	width: 10rem;
+	height: 13rem;
+	width: 13rem;
 	border-radius: 100%;
-	margin: -2.0rem 0 0 0;
+	margin: -2.0rem 2rem 0 0;
 	float: left;
+	padding-left: 3rem;
 }
 .intro-info h3 {
 	text-align: left;
@@ -2513,8 +2515,8 @@ input, select, textarea {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 11rem;/*7.8rem;*/
+		width: 11rem;/*7.8rem;*/
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -2539,8 +2541,8 @@ input, select, textarea {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 9rem;/*6.6rem;*/
+		width: 9rem;/*6.6rem;*/
 		float: none;
 		display: inline-block;
 	}
