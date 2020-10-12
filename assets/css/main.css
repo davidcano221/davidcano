@@ -2469,18 +2469,23 @@ input, select, textarea {
 .about-content .info-list {
 	list-style: none;
 	margin-left: 0;
+	margin-top: 3rem;
 }
 .about-content .info-list li {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
 }
+
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
-	letter-spacing: .2rem;
+	letter-spacing: .1rem;
 	font-size: 1.5rem;
 	line-height: 3rem;
+}
+.about-content .info-list li strong:before {
+	content:"· ";
 }
 .about-content .info-list li span {
 	display: block;
@@ -2676,6 +2681,9 @@ input, select, textarea {
 	}
 }
 @media only screen and (max-width:768px) {
+	#resume {
+		padding-left: 0rem;
+	}
 	#resume .timeline-wrap::before {
 		left: 2.4rem;
 	}
@@ -2683,7 +2691,7 @@ input, select, textarea {
 		left: 2.4rem;
 	}
 	#resume .timeline-header {
-		float: none;
+		float: none; 
 		width: auto;
 		padding-right: 15px;
 		text-align: left;
@@ -2713,12 +2721,17 @@ input, select, textarea {
 	}
 }
 @media only screen and (max-width:480px) {
-	
+	#resume {
+	padding-left: 0rem;
+	}
 	#resume .resume-header h2 {
 		font-size: 2.2rem;
 	}
 	#resume .timeline-wrap::before {
 		left: 1.8rem;
+	}
+	#resume .timeline-wrap {
+		padding-left: 6.8rem;
 	}
 	#resume .timeline-ico {
 		height: 3.6rem;
