@@ -2730,9 +2730,9 @@ input, select, textarea {
 	#resume .timeline-wrap::before {
 		left: 1.8rem;
 	}
-	#resume .timeline-wrap {
+	/*#resume .timeline-wrap {
 		padding-left: 6.8rem;
-	}
+	}*/
 	#resume .timeline-ico {
 		height: 3.6rem;
 		width: 3.6rem;
@@ -2740,7 +2740,7 @@ input, select, textarea {
 		left: 1.8rem;
 		margin-left: -1.8rem;
 		font-size: 1.5rem;
-		padding-left:1rem;
+		/*padding-left:1rem;*/
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 5.5rem;
