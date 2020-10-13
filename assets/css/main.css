@@ -1848,6 +1848,15 @@ input, select, textarea {
 			.button.alt:active {
 				background: #b1bab5;
 			}
+		
+		input[type="button"].dcz,
+		input[type="submit"].dcz,
+		input[type="reset"].dcz,
+		button.dcz,
+		.button.dcz {
+			line-height: 0em;
+			font-size: 0.95em;
+		}
 
 		input[type="button"].large,
 		input[type="submit"].large,
