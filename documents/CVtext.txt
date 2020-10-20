@@ -1,0 +1,36 @@
+WEBPAGE: https://davidcano221.github.io/davidcano/
+
+PROFESSIONAL PROFILE
+Physics engineer with a Master of Science in Biomedical Engineering. Currently coursing an MS in Data Science and Engineering. 1-year experience investigating digital biomedical signals. I consider myself a curious person willing and able to learn fast and constantly improve. I can adapt to different scenarios providing perspectives from the mathematical, physics, and engineering fields.
+
+EDUCATION
+- MSc Data Science and Engineering (currently)
+- Webpages creation, programming, and design (2020)
+- E-learning training (2020)
+- MSc Biomedical Engineering (2018 - 2020)
+- BSc Physics Engineering (2014 - 2018)
+
+EXPERIENCE
+- Researcher  -  UPC (Sept. 2018 - Jan. 2020)
+---> Acquisition, filtering, and visualization of digital biomedical signals.
+---> Utilization of Matlab and Python.
+- Student Support  -  UPC (Mar. 2018)
+---> To inform college students who are interested in the degree about the features of it.
+- Customer support   -  DECATHLON (June 2017 - Sept. 2017)
+---> To attend and support the customer.
+---> To help the teammates of other departments.
+
+PROGRAMMING SKILLS
+- Matlab
+- Python
+- R
+- SQL
+- Excel
+
+PROFESSIONAL SKILLS
+- Versatility
+- Responsibility
+- Willingness to learn
+- Problem Solving
+- Assertiveness
+- Teamwork
