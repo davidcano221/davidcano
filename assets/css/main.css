@@ -2023,6 +2023,14 @@ input, select, textarea {
 			ul.special li a {
 				display: block;
 				outline: 0;
+				font-family: "poppins-bold", sans-serif;
+				font-size: 1rem;
+				text-align: center;
+				padding-right:10rem;
+				text-transform: uppercase;
+				letter-spacing: 0.01rem;
+				color:#2F4F4F;
+				text-decoration: none;
 			}
 
 				ul.special li a:before {
@@ -2369,7 +2377,7 @@ input, select, textarea {
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;/*Text above bars color*/
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	letter-spacing: .1rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
@@ -2475,6 +2483,14 @@ input, select, textarea {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+}
+.about-content h2 {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	padding-right:10rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
 }
 .about-content .info-list {
 	list-style: none;
