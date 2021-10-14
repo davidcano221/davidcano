@@ -2649,8 +2649,8 @@ input, select, textarea {
 }
 #resume .timeline-ico i {
 	position: relative;
-	left: .05rem;
-	top: .2rem;
+	left: .0rem;
+	top: 0.8rem;/*0.2*/
 }
 
 #resume .timeline-header {
